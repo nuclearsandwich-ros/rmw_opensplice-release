@@ -1,0 +1,12 @@
+Source: ros-verystable-rmw-opensplice-cpp
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), libopensplice69, ros-verystable-ament-cmake, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-opensplice-cmake-module, ros-verystable-rcpputils, ros-verystable-rcutils, ros-verystable-rmw, ros-verystable-rosidl-cmake, ros-verystable-rosidl-generator-c, ros-verystable-rosidl-generator-cpp, ros-verystable-rosidl-generator-dds-idl, ros-verystable-rosidl-typesupport-opensplice-c, ros-verystable-rosidl-typesupport-opensplice-cpp, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-rmw-opensplice-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libopensplice69, ros-verystable-ament-cmake, ros-verystable-opensplice-cmake-module, ros-verystable-rmw, ros-verystable-rosidl-cmake, ros-verystable-rosidl-generator-c, ros-verystable-rosidl-generator-cpp, ros-verystable-rosidl-typesupport-opensplice-c, ros-verystable-rosidl-typesupport-opensplice-cpp, ros-verystable-ros-workspace
+Description: Implement the ROS middleware interface using ADLINK OpenSplice static code generation in C++.
